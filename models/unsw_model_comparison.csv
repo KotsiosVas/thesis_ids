@@ -1,0 +1,4 @@
+,label acc,label precision,label recall,label F1,label ROC-AUC,attack_cat acc,attack_cat macro-F1
+Logistic Regression,0.8384,0.783,0.9775,0.8695,0.9654,0.6147,0.3499
+Random Forest,0.8703,0.8168,0.9854,0.8932,0.9807,0.7491,0.5117
+Νευρωνικό (multi-task),0.8697,0.8143,0.9889,0.8932,0.9871,0.717,0.4534

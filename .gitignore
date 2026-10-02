@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/
+models/unsw_multitask_p0.0.keras
+models/unsw_multitask_p0.5.keras
