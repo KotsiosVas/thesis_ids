@@ -1,0 +1,23 @@
+{
+  "features": [
+    "dur",
+    "dpkts",
+    "tcprtt",
+    "smean",
+    "trans_depth",
+    "ct_srv_src",
+    "is_ftp_login",
+    "is_sm_ips_ports"
+  ],
+  "units": [
+    256,
+    128,
+    64
+  ],
+  "dropout": 0.1,
+  "class_weight_power": 0.25,
+  "epochs_max": 120,
+  "patience": 10,
+  "seed": 42,
+  "criterion": "validation attack_cat macro-F1"
+}
