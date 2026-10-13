@@ -1,0 +1,22 @@
+{
+  "features": [
+    "network_packet_size",
+    "login_attempts",
+    "session_duration",
+    "ip_reputation_score",
+    "failed_logins",
+    "unusual_time_access",
+    "protocol_type",
+    "encryption_used",
+    "browser_type"
+  ],
+  "units": [
+    16
+  ],
+  "dropout": 0.1,
+  "seed": 42,
+  "epochs_max": 200,
+  "patience": 15,
+  "batch_size": 128,
+  "criterion": "μέσο validation ROC-AUC σε 3 σπόρους"
+}

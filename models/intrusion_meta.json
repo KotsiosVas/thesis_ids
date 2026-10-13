@@ -1,0 +1,62 @@
+{
+  "target": "attack_detected",
+  "num_cols": [
+    "network_packet_size",
+    "login_attempts",
+    "session_duration",
+    "ip_reputation_score",
+    "failed_logins"
+  ],
+  "bin_cols": [
+    "unusual_time_access"
+  ],
+  "cat_cols": [
+    "protocol_type",
+    "encryption_used",
+    "browser_type"
+  ],
+  "log_cols": [
+    "session_duration"
+  ],
+  "features": [
+    "network_packet_size",
+    "login_attempts",
+    "session_duration",
+    "ip_reputation_score",
+    "failed_logins",
+    "unusual_time_access",
+    "protocol_type",
+    "encryption_used",
+    "browser_type"
+  ],
+  "feature_names": [
+    "log__session_duration",
+    "num__network_packet_size",
+    "num__login_attempts",
+    "num__ip_reputation_score",
+    "num__failed_logins",
+    "bin__unusual_time_access",
+    "cat__protocol_type_ICMP",
+    "cat__protocol_type_TCP",
+    "cat__protocol_type_UDP",
+    "cat__encryption_used_AES",
+    "cat__encryption_used_DES",
+    "cat__encryption_used_None",
+    "cat__browser_type_Chrome",
+    "cat__browser_type_Edge",
+    "cat__browser_type_Firefox",
+    "cat__browser_type_Safari",
+    "cat__browser_type_Unknown"
+  ],
+  "random_state": 42,
+  "split": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "sizes": {
+    "train": 6675,
+    "val": 1431,
+    "test": 1431
+  }
+}

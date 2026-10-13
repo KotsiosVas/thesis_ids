@@ -1,0 +1,26 @@
+{
+  "source": "δέντρο απόφασης βάθους 3 (notebook B04), όροι σε πραγματικές μονάδες",
+  "attack_paths": [
+    [
+      {
+        "feature": "failed_logins",
+        "op": ">",
+        "value": 2.4999999773488257
+      }
+    ],
+    [
+      {
+        "feature": "login_attempts",
+        "op": ">",
+        "value": 6.499999981889577
+      }
+    ],
+    [
+      {
+        "feature": "ip_reputation_score",
+        "op": ">",
+        "value": 0.5998667693910075
+      }
+    ]
+  ]
+}
